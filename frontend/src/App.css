@@ -1,0 +1,45 @@
+*{margin: 0px; padding: 0px;}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{font-family: "Lato", sans-serif; font-size: 14px;}
+
+.bg-blue{background: #233a95}
+
+@media (min-width: 1300px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1200px;
+    }
+}
+
+.header_wrapper{height: auto;}
+.header_wrapper .top_strip{padding: 8px 0px;}
+
+.header_wrapper .top_strip p{color: #ffffff; font-size: 12px;font-weight:500;}
+
+.header_wrapper .header{width: 100%; height: auto; padding: 30px 0px;};
+.header_wrapper .header .container{max-width: 1200px;}
+.logowrapper {
+    width: 164px;
+    margin: 1px;
+    padding-top: 0px; 
+  }
+  
+  .logowrapper img {
+    max-height: 90px; 
+    width: 100%; 
+     
+  }
+  
+  .header_wrapper .header .row{height: 70px;}
+  
+  .header .headerSearch{width: 60%; height: 60px; padding: 10px; position: relative; background: #f3f4f7; border-radius: 10px; border: 1px solid rgba(0,0,0,0,1);}
+  .header .headerSearch input{background: transparent; outline: none; font-size: 18px; color: black; border: 0px; width: 100%; height: 40px; padding: 0 20px; }
+  .header .headerSearch button{position:absolute; top: 10px; right: 15px; z-index: 100; min-width: 40px; height: 40px; width: 40px; border-radius: 50%; color: #000; }
+  .header .headerSearch button svg{font-size: 23px;}
+
+
+  
+
+  .cartTab .price{font-size: 18px; color: #000; font-weight: 700;}
+
+  .cartTab .count{position: absolute; top: -6px; right: -4px; height: 20px; width: 20px; background: red; border-radius: 50%; color: #f3f4f7;} 
