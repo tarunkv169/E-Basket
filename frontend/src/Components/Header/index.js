@@ -23,7 +23,7 @@ import Navigation from "./Navigation";
               </div>
 
 
-              <div className="header mb-5 mt-2">
+              <div className="header">
                   <div className="container p-0">
 
                         <div className="row">

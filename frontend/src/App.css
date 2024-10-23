@@ -43,3 +43,45 @@ body{font-family: "Lato", sans-serif; font-size: 14px;}
   .cartTab .price{font-size: 18px; color: #000; font-weight: 700;}
 
   .cartTab .count{position: absolute; top: -6px; right: -4px; height: 20px; width: 20px; background: red; border-radius: 50%; color: #f3f4f7;} 
+
+  .navpart1 .allcatTab * { color: white; }
+  .navpart1 .allcatTab {
+    font-size: 14px;
+    background: #2bbef9;
+    padding: 15px 20px !important;
+    border-radius: 30px !important;
+  }
+  .navpart1 .allcatTab:hover { background: #1fb7f4; }
+  .navpart1 .allcatTab .text { font-weight: 500; }
+  .allcatTab .icon1 svg { font-size: 20px !important; }
+  .allcatTab .icon2 svg { font-size: 15px !important; }
+  
+  /* Flex settings for proper spacing */
+  nav .navpart2 ul {
+    margin-bottom: 0;
+  }
+  nav .navpart2 ul li {
+    margin-left: 15px;
+  }
+  nav .navpart2 ul li a {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    color: rgba(0, 0, 0, 0.7);
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    padding: 11px;
+  }
+
+
+  nav .navpart2 ul li a:hover {
+    background: #f0faff;
+    color: #2bbef9;
+  }
+  
+
+
